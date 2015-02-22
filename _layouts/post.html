@@ -5,11 +5,16 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
   <article class="post-content">
     {{ content }}
   </article>
 
+    <p class="post-meta">
+      <span class="name">Forged:</span> {{ page.date | date: "%Y-%m-%d %H:%M"}}<br />
+      <span class="name">Author:</span> Jimmie Elvenmark<br />
+      <span class="name">Follow:</span> <a href="https://github.com/flugsio">Github</a> &amp; <a href="https://www.twitter.com/flugsio">Twitter</a> <br />
+      <span class="name">Source:</span> <a href="//previouscode.com">previouscode.com</a>
+    </p>
 </div>

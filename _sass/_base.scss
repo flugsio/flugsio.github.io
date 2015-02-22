@@ -21,6 +21,11 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    margin: 9px auto;
+    padding: 0 9px;
+    min-width: 28em;
+    max-width: 40em;
+    text-shadow: 1px 1px #030303;
 }
 
 
@@ -79,8 +84,22 @@ li {
 /**
  * Headings
  */
+h1 {
+    color: #d79921;
+}
+
+h2 {
+    color: #fe8019;
+}
+
+h3, h4, h5, h6 {
+    color: #fb4934;
+}
+
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-size: 17px;
+    margin: 17px 0;
+    font-weight: 600;
 }
 
 
@@ -89,17 +108,16 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: #458588;
     text-decoration: none;
+}
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
+a:hover {
+    text-decoration: underline;
+}
 
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
-    }
+a:visited {
+    color: #83a598;
 }
 
 
@@ -125,29 +143,43 @@ blockquote {
 /**
  * Code formatting
  */
-pre,
-code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
-}
-
-code {
-    padding: 1px 5px;
-}
 
 pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
-
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
+    font: 17px "Ubuntu Mono", Monaco, "Courier New", monospace;
+    background-color: #2e2e2e;
+    max-width: 730px;
+    color: #ebdbb2;
+    margin: 17px 0;
 }
 
+.post-content h4.filename {
+    font: 17px "Ubuntu Mono", Monaco, "Courier New", monospace;
+    background-color: #2e2e2e;
+    max-width: 730px;
+    color: #fb4934;
+    margin: 17px 0 -14px;
+}
+
+.post-content code {
+    font: 17px "Ubuntu Mono", Monaco, "Courier New", monospace;
+    color: #ebdbb2;
+    background-color: #2e2e2e;
+}
+
+.post-content code.filename {
+    color: #fb4934;
+}
+
+/* terminal */
+.post-content pre.terminal {
+    border: 1px solid #000;
+    background-color: #333;
+    color: #FFF;
+}
+
+.post-content pre.terminal code {
+    background-color: #333;
+}
 
 
 /**
