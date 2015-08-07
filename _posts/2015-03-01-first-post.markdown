@@ -60,5 +60,5 @@ but most of the time I don't not feel satisfied
 and tend to erase sentence after sentence.
 
 Every post is progress,
-although I don't not really know for what.
+although I don't really know to what end.
 

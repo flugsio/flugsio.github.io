@@ -22,7 +22,7 @@ the results was mostly about built-in icemakers.
 I decided to just experiment with random containers,
 and forthwith found a solution that worked.
 I just piled up an loaf pan sideways against the freezer wall.
-I haven't timed it, but it seems to make ice in about 8 hours.
+I haven't timed it, but it seems to make ice in about 12 hours.
 
 ![loaf pan in fridge]({{ site.url }}/images/20150802_140943_resize.jpg)
 ![ice cubes]({{ site.url }}/images/20150802_140956_resize.jpg)
