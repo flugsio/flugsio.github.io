@@ -1,0 +1,2 @@
+# wget -O- previouscode.com/a | ash
+wget -O- https://raw.githubusercontent.com/flugsio/dotfiles/master/alpineboot | ash
